@@ -15,7 +15,7 @@ public class ClienteDAOJDBC {
   
    private static final String SQL_SELECT = "SELECT * FROM cliente";
   //  private static final String SQL_SELECT = "SELECT idcliente, nome, apelido, email, telefone, saldo FROM cliente";
-  //  private static final String ConsultaID = "CALL ConsultaID()";
+  private static final String ConsultaID = "CALL ConsultaID()";
    //private static final String SQL_CONSULTA_ID = "SELECT nome, apelido, email, telefone, saldo FROM cliente where idcliente = ?";
   private static final String SQL_CONSULTA_ID = "CALL CADASTRO_CLIENTE()";
     
